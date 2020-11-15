@@ -26,11 +26,15 @@
 
       <div class="form-group">
         <label for="exampleInputPassword1">Phone Number</label>
-        <input formControlName="phone"   type="phone" class="form-control" id="phone"  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"  placeholder="Enter Phone Number" required>
-        <small>Format: 123-45-678</small><br><br>
+        <input formControlName="phone"   type="phone" class="form-control" id="phone"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"  placeholder="Enter Phone Number" required>
+        <small>Format: 123-453-6783</small><br><br>
       </div>
 
-      <button class="btn btn-block btn-success" type="submit" [disabled]="!form.valid" class="btn btn-primary" style="width: 40%;" [routerLink]="['/home']">Submit</button>
+      <div [hidden]="formControls.phone.valid || formControls.phone.pristine" class="alert alert-danger">
+        El Phone es un campo requerido.
+      </div>
+
+      <button class="btn btn-block btn-success" type="submit" [disabled]="!form.valid" class="btn btn-primary" style="width: 40%;" >Submit</button>
       <button type="button" class="btn btn-secondary" [routerLink]="['/home']" style="float: right; width: 40%;">back</button>
     </form>
   </div>

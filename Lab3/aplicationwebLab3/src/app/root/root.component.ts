@@ -1,6 +1,7 @@
 import { allContacts } from './../mocks/contacts';
 import { Component, OnInit } from '@angular/core';
 import { Contact } from '../models/contacts';
+import { ContactService } from '../contact.service';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,7 @@ import { Contact } from '../models/contacts';
 })
 export class RootComponent implements OnInit {
 
-  constructor() { }
+  constructor(private contactService : ContactService) { }
 
 
 
@@ -17,8 +18,8 @@ export class RootComponent implements OnInit {
   filterContactList: Array<Contact>;
 
   ngOnInit(): void {
-    this.contacts = allContacts;
-    this.filterContactList = allContacts;
+    this.contacts = this.contactService.getContacts();
+    this.filterContactList = this.contactService.getContacts();
     //this.contacts.push(new Contact(1,"Mr","Lewis Hamilton","lewisOne@gmail.com","+1 323-342-4324"));
   }
 
@@ -41,7 +42,7 @@ export class RootComponent implements OnInit {
   filterContact(dataId : number)
   {
     if(dataId == 0){
-      this.filterContactList = allContacts;
+      this.filterContactList = this.contactService.getContacts();
     }else{
       this.filterContactList = this.contacts.filter((contact : Contact) => contact.id == dataId)
     }

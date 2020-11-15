@@ -15,9 +15,9 @@
   <tbody>
     <tr *ngFor="let contact of filterContactList">
       <th scope="row">{{contact.id}}</th>
-      <td>{{contact.title}}. {{contact.name}}</td>
+      <td>Mrs. {{contact.name}}</td>
       <td>{{contact.email}}</td>
-      <td>{{contact.phone}}</td>
+      <td>+1-{{contact.phone}}</td>
     </tr>
   </tbody>
 </table>

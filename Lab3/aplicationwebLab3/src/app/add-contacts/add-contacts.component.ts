@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
+import { ContactService } from '../contact.service';
 import { Contact } from '../models/contacts';
 
 
@@ -11,10 +13,12 @@ import { Contact } from '../models/contacts';
 export class AddContactsComponent implements OnInit {
 
   form: FormGroup;
+
   //filterContactList: Array<Contact>;
 
-  constructor() { }
-  contacts: Contact[];
+  constructor(private contactService : ContactService,private router: Router) { }
+  
+
   ngOnInit(): void {
 
     this.form = this.initForm();
@@ -25,6 +29,7 @@ export class AddContactsComponent implements OnInit {
 
   initForm() : FormGroup{
     return new FormGroup({
+      
 
       name: new FormControl("", Validators.required),
       email: new FormControl("", Validators.email),
@@ -41,10 +46,14 @@ export class AddContactsComponent implements OnInit {
   
 
   onSubmit(){ 
+    console.log("Hello");
     const result : Contact = this.form.value;
     console.log(result.name);
-    this.contacts.push(new Contact(result.id, result.phone, result.name, result.email,  result.title));
+    console.log("Hello");
+    this.contactService.addContact(new Contact(this.contactService.getContacts().length+1,  result.title, result.name, result.email,  result.phone));
     this.form.reset();
+    this.router.navigate(['/home']);
+    
  
   }
 
