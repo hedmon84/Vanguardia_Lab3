@@ -50,6 +50,8 @@ export class RootComponent implements OnInit {
 
   Delete(contact_id) {
     this.filterContactList = this.filterContactList.filter((con) => con.id !== contact_id);
+    this.contacts = this.filterContactList;
+
 
   }
 
