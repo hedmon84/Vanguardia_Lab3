@@ -9,6 +9,7 @@ import { Contact } from '../models/contacts';
   selector: 'app-add-contacts',
   templateUrl: './add-contacts.component.html',
   styleUrls: ['./add-contacts.component.css']
+
 })
 export class AddContactsComponent implements OnInit {
 
@@ -16,8 +17,8 @@ export class AddContactsComponent implements OnInit {
 
   //filterContactList: Array<Contact>;
 
-  constructor(private contactService : ContactService,private router: Router) { }
-  
+  constructor(private contactService: ContactService, private router: Router) { }
+
 
   ngOnInit(): void {
 
@@ -25,12 +26,12 @@ export class AddContactsComponent implements OnInit {
 
   }
 
-  
 
-  initForm() : FormGroup{
+
+  initForm(): FormGroup {
     return new FormGroup({
-      
 
+      title: new FormControl("", Validators.required),
       name: new FormControl("", Validators.required),
       email: new FormControl("", Validators.email),
       phone: new FormControl("", Validators.required),
@@ -39,22 +40,24 @@ export class AddContactsComponent implements OnInit {
     });
   }
 
-  get formControls(){
+  get formControls() {
     return this.form.controls;
   }
 
-  
 
-  onSubmit(){ 
+
+  onSubmit() {
     console.log("Hello");
-    const result : Contact = this.form.value;
+    const result: Contact = this.form.value;
     console.log(result.name);
     console.log("Hello");
-    this.contactService.addContact(new Contact(this.contactService.getContacts().length+1,  result.title, result.name, result.email,  result.phone));
+    //this.contactService.addContact(new Contact(this.contactService.getContacts().length + 1, result.title, result.name, result.email, result.phone));
+    //this.contactService.addContact({ id: this.contactService.getContacts().length + 1, title: result.title, name: result.name, email: result.email, phone: result.phone });
+    this.contactService.addContact({ ...result, id: this.contactService.getContacts().length + 1 });
     this.form.reset();
     this.router.navigate(['/home']);
-    
- 
+
+
   }
 
 }
