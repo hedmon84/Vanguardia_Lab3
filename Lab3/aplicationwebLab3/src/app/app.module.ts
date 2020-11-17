@@ -10,6 +10,7 @@ import { ContactService } from './contact.service';
 import { MatSelectModule } from '@angular/material/select';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
+import { DetailContactsComponent } from './detail-contacts/detail-contacts.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { RouterModule } from '@angular/router';
     RootComponent,
     FilterContactsComponent,
     AddContactsComponent,
+    DetailContactsComponent,
   ],
   imports: [
     BrowserModule,

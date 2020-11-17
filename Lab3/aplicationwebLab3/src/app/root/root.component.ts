@@ -13,11 +13,12 @@ import { ContactService } from '../contact.service';
 export class RootComponent implements OnInit {
 
   constructor(private contactService: ContactService) { }
+  
 
-
-
+  show: boolean = true;
   contacts: Contact[];
   filterContactList: Array<Contact>;
+  detailContact: Contact;
 
   ngOnInit(): void {
     this.contacts = this.contactService.getContacts();
@@ -48,10 +49,15 @@ export class RootComponent implements OnInit {
     }
   }
 
+  onClickDetail(contact_detail : Contact) : void{
+    this.show = true;
+    this.detailContact = contact_detail;
+  }
+
   Delete(contact_id) {
     this.filterContactList = this.filterContactList.filter((con) => con.id !== contact_id);
     this.contacts = this.filterContactList;
-
+    this.show = false;
 
   }
 

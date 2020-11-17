@@ -13,13 +13,25 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let contact of filterContactList">
+      <tr *ngFor="let contact of filterContactList" (click)="onClickDetail(contact)">
         <th scope="row">{{contact.id}}</th>
         <td>{{contact.title}}.{{contact.name}}</td>
         <td>{{contact.email}}</td>
         <td>+1-{{contact.phone}}</td>
-        <td> <button (click)="Delete(contact.id)">Borrar</button> </td>
+        
       </tr>
     </tbody>
   </table>
+</div>
+
+<div  *ngIf="show" class="detailcard">
+<div *ngIf="detailContact" class="card" style="width: 18rem;">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Title: {{detailContact.title}}</li>
+    <li class="list-group-item">Name: {{detailContact.name}}</li>
+    <li class="list-group-item">Name: {{detailContact.email}}</li>
+    <li class="list-group-item">Phone: {{detailContact.phone}}</li>
+    <li class="list-group-item"> <button style="margin-left: 35%;" class="btn btn-primary" (click)="Delete(detailContact.id)">Borrar</button> </li>
+  </ul>
+</div>
 </div>
