@@ -1,0 +1,87 @@
+[
+  {
+    "piece": "C",
+    "StartPositionX": "b",
+    "StartPositionY": "1",
+    "newPositionX": "a",
+    "newPositionY": "3",
+    "WhitePiece": 1
+  },
+  {
+    "piece": "C",
+    "StartPositionX": "a",
+    "StartPositionY": "3",
+    "newPositionX": "c",
+    "newPositionY": "4",
+    "WhitePiece": 0
+  },
+  {
+    "piece": "P",
+    "StartPositionX": "d",
+    "StartPositionY": "2",
+    "newPositionX": "d",
+    "newPositionY": "3",
+    "WhitePiece": 1
+  },
+  {
+    "piece": "P",
+    "StartPositionX": "f",
+    "StartPositionY": "4",
+    "newPositionX": "f",
+    "newPositionY": "5",
+    "WhitePiece": 0
+  },
+  {
+    "piece": "C",
+    "StartPositionX": "c",
+    "StartPositionY": "6",
+    "newPositionX": "e",
+    "newPositionY": "5",
+    "WhitePiece": 1
+  }
+]
+
+
+
+// FAILED TEST[
+//  {
+//    "piece": "C",
+//    "StartPositionX": "b",
+//    "StartPositionY": "1",
+//    "newPositionX": "a",
+//    "newPositionY": "3",
+//    "WhitePiece": 1
+//  },
+//  {
+//    "piece": "C",
+//    "StartPositionX": "a",
+//    "StartPositionY": "3",
+//    "newPositionX": "c",
+//    "newPositionY": "4",
+//    "WhitePiece": 0
+//  },
+//  {
+//    "piece": "P",
+//    "StartPositionX": "d",
+//    "StartPositionY": "6",
+//    "newPositionX": "d",
+//    "newPositionY": "3",
+//    "WhitePiece": 1
+//  },
+//  {
+//    "piece": "P",
+//    "StartPositionX": "f",
+//    "StartPositionY": "4",
+//    "newPositionX": "f",
+//    "newPositionY": "5",
+//    "WhitePiece": 0
+//  },
+//  {
+//    "piece": "C",
+//    "StartPositionX": "c",
+//    "StartPositionY": "6",
+//    "newPositionX": "e",
+//    "newPositionY": "5",
+//    "WhitePiece": 1
+//  }
+//]

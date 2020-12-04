@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7moVKODsZfL2Yr58fXS9bxCX5r9hJ9M+pXmYDm0IMQuhOSS9p6RsszVH1CDo2Ym+KACQHkkupi319ktYI9neqA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MARCOFERNANDOCHACONM\\Desktop\\Lab4\\DebugGrupo\\ChessGame\\Chess.Infraestructure\\GameChess.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MARCOFERNANDOCHACONM\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

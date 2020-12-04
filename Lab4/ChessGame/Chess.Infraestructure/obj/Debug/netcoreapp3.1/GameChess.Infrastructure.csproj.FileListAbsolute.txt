@@ -1,0 +1,12 @@
+C:\Users\MARCOFERNANDOCHACONM\Desktop\Lab4\DebugGrupo\ChessGame\Chess.Infraestructure\bin\Debug\netcoreapp3.1\GameChess.Infrastructure.deps.json
+C:\Users\MARCOFERNANDOCHACONM\Desktop\Lab4\DebugGrupo\ChessGame\Chess.Infraestructure\bin\Debug\netcoreapp3.1\GameChess.Infrastructure.dll
+C:\Users\MARCOFERNANDOCHACONM\Desktop\Lab4\DebugGrupo\ChessGame\Chess.Infraestructure\bin\Debug\netcoreapp3.1\GameChess.Infrastructure.pdb
+C:\Users\MARCOFERNANDOCHACONM\Desktop\Lab4\DebugGrupo\ChessGame\Chess.Infraestructure\bin\Debug\netcoreapp3.1\GameChess.Core.dll
+C:\Users\MARCOFERNANDOCHACONM\Desktop\Lab4\DebugGrupo\ChessGame\Chess.Infraestructure\bin\Debug\netcoreapp3.1\GameChess.Core.pdb
+C:\Users\MARCOFERNANDOCHACONM\Desktop\Lab4\DebugGrupo\ChessGame\Chess.Infraestructure\obj\Debug\netcoreapp3.1\GameChess.Infrastructure.csprojAssemblyReference.cache
+C:\Users\MARCOFERNANDOCHACONM\Desktop\Lab4\DebugGrupo\ChessGame\Chess.Infraestructure\obj\Debug\netcoreapp3.1\GameChess.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\MARCOFERNANDOCHACONM\Desktop\Lab4\DebugGrupo\ChessGame\Chess.Infraestructure\obj\Debug\netcoreapp3.1\GameChess.Infrastructure.AssemblyInfo.cs
+C:\Users\MARCOFERNANDOCHACONM\Desktop\Lab4\DebugGrupo\ChessGame\Chess.Infraestructure\obj\Debug\netcoreapp3.1\GameChess.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\MARCOFERNANDOCHACONM\Desktop\Lab4\DebugGrupo\ChessGame\Chess.Infraestructure\obj\Debug\netcoreapp3.1\GameChess.Infrastructure.csproj.CopyComplete
+C:\Users\MARCOFERNANDOCHACONM\Desktop\Lab4\DebugGrupo\ChessGame\Chess.Infraestructure\obj\Debug\netcoreapp3.1\GameChess.Infrastructure.dll
+C:\Users\MARCOFERNANDOCHACONM\Desktop\Lab4\DebugGrupo\ChessGame\Chess.Infraestructure\obj\Debug\netcoreapp3.1\GameChess.Infrastructure.pdb

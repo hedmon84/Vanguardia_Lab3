@@ -1,0 +1,8 @@
+C:\Users\MARCOFERNANDOCHACONM\Desktop\Lab4\DebugGrupo\ChessGame\Chess.Core\bin\Debug\netcoreapp3.1\GameChess.Core.deps.json
+C:\Users\MARCOFERNANDOCHACONM\Desktop\Lab4\DebugGrupo\ChessGame\Chess.Core\bin\Debug\netcoreapp3.1\GameChess.Core.dll
+C:\Users\MARCOFERNANDOCHACONM\Desktop\Lab4\DebugGrupo\ChessGame\Chess.Core\bin\Debug\netcoreapp3.1\GameChess.Core.pdb
+C:\Users\MARCOFERNANDOCHACONM\Desktop\Lab4\DebugGrupo\ChessGame\Chess.Core\obj\Debug\netcoreapp3.1\GameChess.Core.AssemblyInfoInputs.cache
+C:\Users\MARCOFERNANDOCHACONM\Desktop\Lab4\DebugGrupo\ChessGame\Chess.Core\obj\Debug\netcoreapp3.1\GameChess.Core.AssemblyInfo.cs
+C:\Users\MARCOFERNANDOCHACONM\Desktop\Lab4\DebugGrupo\ChessGame\Chess.Core\obj\Debug\netcoreapp3.1\GameChess.Core.csproj.CoreCompileInputs.cache
+C:\Users\MARCOFERNANDOCHACONM\Desktop\Lab4\DebugGrupo\ChessGame\Chess.Core\obj\Debug\netcoreapp3.1\GameChess.Core.dll
+C:\Users\MARCOFERNANDOCHACONM\Desktop\Lab4\DebugGrupo\ChessGame\Chess.Core\obj\Debug\netcoreapp3.1\GameChess.Core.pdb
