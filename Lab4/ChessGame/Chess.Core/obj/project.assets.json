@@ -8,25 +8,20 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\MARCOFERNANDOCHACONM\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MARCOFERNANDOCHACONM\\Desktop\\Lab4\\DebugGrupo\\ChessGame\\Chess.Core\\GameChess.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Vanguardia_Lab3\\Lab4\\ChessGame\\Chess.Core\\GameChess.Core.csproj",
       "projectName": "GameChess.Core",
-      "projectPath": "C:\\Users\\MARCOFERNANDOCHACONM\\Desktop\\Lab4\\DebugGrupo\\ChessGame\\Chess.Core\\GameChess.Core.csproj",
-      "packagesPath": "C:\\Users\\MARCOFERNANDOCHACONM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MARCOFERNANDOCHACONM\\Desktop\\Lab4\\DebugGrupo\\ChessGame\\Chess.Core\\obj\\",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\Vanguardia_Lab3\\Lab4\\ChessGame\\Chess.Core\\GameChess.Core.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Administrator\\Desktop\\Vanguardia_Lab3\\Lab4\\ChessGame\\Chess.Core\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\MARCOFERNANDOCHACONM\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -37,6 +32,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -48,6 +44,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -63,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

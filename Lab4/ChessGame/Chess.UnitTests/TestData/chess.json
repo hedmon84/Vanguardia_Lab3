@@ -1,0 +1,38 @@
+{
+
+  "rookValidMovement": {
+    "piece": "T",
+    "originalXPosition": "e",
+    "originalYPosition": "2",
+    "newXPosition": "e",
+    "newYPosition": "4",
+    "isWhitePiece": 1
+  },
+  "ValidMovement": {
+    "piece": "C",
+    "originalXPosition": "g",
+    "originalYPosition": "1",
+    "newXPosition": "f",
+    "newYPosition": "3",
+    "isWhitePiece": 0
+  },
+
+  "pawnValidMovement": {
+    "piece": "P",
+    "originalXPosition": "e",
+    "originalYPosition": "4",
+    "newXPosition": "e",
+    "newYPosition": "5",
+    "isWhitePiece": 1
+  },
+
+
+  "InvalidMovement": {
+    "piece": "P",
+    "originalXPosition": "e",
+    "originalYPosition": "5",
+    "newXPosition": "e",
+    "newYPosition": "8",
+    "isWhitePiece": 1
+  }
+}

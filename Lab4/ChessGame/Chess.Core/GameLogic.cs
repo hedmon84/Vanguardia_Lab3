@@ -60,5 +60,6 @@ namespace Chess.Core
         {
             _logger.Log("Finalizado ....");
         }
+
     }
 }

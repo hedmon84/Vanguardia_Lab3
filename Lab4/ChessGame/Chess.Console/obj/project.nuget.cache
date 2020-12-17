@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lyzVNol37LvZbpUIlu1zlLirrBisUc0JWooIal6irEs6Px9qsfB1czJlArV+dUu32oCQ/e6k7eDp8RmJVHlTtA==",
+  "dgSpecHash": "SfyXvprmhQ/6PyXa0A/4C2lFooJHly0IagmuJdaV1H4Ug3yXn9Tk08MqBAybFURBiFRvK3MBKgHN74ve7HKfuA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MARCOFERNANDOCHACONM\\Desktop\\Lab4\\DebugGrupo\\ChessGame\\Chess.Console\\GameChess.Console.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\Vanguardia_Lab3\\Lab4\\ChessGame\\Chess.Console\\GameChess.Console.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\MARCOFERNANDOCHACONM\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

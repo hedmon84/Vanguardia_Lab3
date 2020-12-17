@@ -10,7 +10,7 @@ using Chess.Core.Models.Rules;
 [assembly: InternalsVisibleTo("Chess.Tests")]
 namespace Chess.Core.Rules
 {
-    internal class MoveLogic : IRuleLogic
+    public class MoveLogic : IRuleLogic
     {
         private readonly IEnumerable<RuleBase> _rules;
 
